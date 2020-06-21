@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E2B264DD249D1C23005773EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B264DC249D1C23005773EB /* AppDelegate.swift */; };
-		E2B264DF249D1C23005773EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B264DE249D1C23005773EB /* SceneDelegate.swift */; };
 		E2B264E1249D1C23005773EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B264E0249D1C23005773EB /* ViewController.swift */; };
 		E2B264E4249D1C23005773EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B264E2249D1C23005773EB /* Main.storyboard */; };
 		E2B264E6249D1C47005773EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B264E5249D1C47005773EB /* Assets.xcassets */; };
@@ -18,12 +17,11 @@
 /* Begin PBXFileReference section */
 		E2B264D9249D1C23005773EB /* fisrttask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fisrttask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B264DC249D1C23005773EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2B264DE249D1C23005773EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E2B264E0249D1C23005773EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2B264E3249D1C23005773EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B264E5249D1C47005773EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B264E8249D1C47005773EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E2B264EA249D1C47005773EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B264EA249D1C47005773EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = fisrttask/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				E2B264DC249D1C23005773EB /* AppDelegate.swift */,
-				E2B264DE249D1C23005773EB /* SceneDelegate.swift */,
 				E2B264E0249D1C23005773EB /* ViewController.swift */,
 				E2B264E2249D1C23005773EB /* Main.storyboard */,
 				E2B264E5249D1C47005773EB /* Assets.xcassets */,
@@ -65,7 +62,7 @@
 				E2B264EA249D1C47005773EB /* Info.plist */,
 			);
 			path = fisrttask;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -102,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2B264D4249D1C23005773EB /* Build configuration list for PBXProject "fisrttask" */;
+			buildConfigurationList = E2B264D4249D1C23005773EB /* Build configuration list for PBXProject "first task" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +137,6 @@
 			files = (
 				E2B264E1249D1C23005773EB /* ViewController.swift in Sources */,
 				E2B264DD249D1C23005773EB /* AppDelegate.swift in Sources */,
-				E2B264DF249D1C23005773EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,12 +281,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCK4R7FGT9;
 				INFOPLIST_FILE = fisrttask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = a.fisrttask;
+				PRODUCT_BUNDLE_IDENTIFIER = ahemd.fisrttask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCK4R7FGT9;
 				INFOPLIST_FILE = fisrttask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = a.fisrttask;
+				PRODUCT_BUNDLE_IDENTIFIER = ahemd.fisrttask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2B264D4249D1C23005773EB /* Build configuration list for PBXProject "fisrttask" */ = {
+		E2B264D4249D1C23005773EB /* Build configuration list for PBXProject "first task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B264EB249D1C47005773EB /* Debug */,
